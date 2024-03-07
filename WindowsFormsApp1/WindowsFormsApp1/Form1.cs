@@ -31,5 +31,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            btn.Text = "我已經被按過了";
+        }
     }
 }
