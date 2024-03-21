@@ -37,5 +37,10 @@ namespace WindowsFormsApp1
             Form form = new FormBUtton(); 
             form.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
