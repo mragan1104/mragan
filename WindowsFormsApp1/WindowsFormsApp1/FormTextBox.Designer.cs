@@ -121,6 +121,7 @@
             this.label4.Size = new System.Drawing.Size(10, 12);
             this.label4.TabIndex = 6;
             this.label4.Text = "?";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button2
             // 
@@ -187,6 +188,7 @@
             this.label7.Size = new System.Drawing.Size(10, 12);
             this.label7.TabIndex = 14;
             this.label7.Text = "?";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // button3
             // 
@@ -235,6 +237,7 @@
             this.label10.Size = new System.Drawing.Size(10, 12);
             this.label10.TabIndex = 19;
             this.label10.Text = "?";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // textBox7
             // 
@@ -258,6 +261,7 @@
             this.button5.TabIndex = 22;
             this.button5.Text = "計算";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label11
             // 
@@ -276,6 +280,7 @@
             this.label12.Size = new System.Drawing.Size(10, 12);
             this.label12.TabIndex = 24;
             this.label12.Text = "?";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
@@ -288,13 +293,15 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(591, 218);
+            this.textBox9.Location = new System.Drawing.Point(590, 225);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 22);
             this.textBox9.TabIndex = 26;
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // textBox10
             // 
+            this.textBox10.AcceptsReturn = true;
             this.textBox10.Location = new System.Drawing.Point(714, 223);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 22);
