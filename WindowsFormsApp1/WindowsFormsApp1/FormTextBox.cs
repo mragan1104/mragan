@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,9 +77,9 @@ namespace WindowsFormsApp1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int a = Int32.Parse(textBox9.Text);
-            int b = Int32.Parse(textBox10.Text);
-            label10.Text = (a/b).ToString();
+            double a = Int32.Parse(textBox9.Text);
+            double b = Int32.Parse(textBox10.Text);
+            label12.Text = (a/b).ToString();
         }
 
         private void textBox9_TextChanged(object sender, EventArgs e)
@@ -102,6 +103,11 @@ namespace WindowsFormsApp1
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
         {
 
         }

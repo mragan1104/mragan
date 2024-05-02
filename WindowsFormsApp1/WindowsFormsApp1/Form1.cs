@@ -54,5 +54,11 @@ namespace WindowsFormsApp1
             Form form = new Form2();
             form.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form formTimer = new FormTimer();
+            formTimer.Show();
+        }
     }
 }
