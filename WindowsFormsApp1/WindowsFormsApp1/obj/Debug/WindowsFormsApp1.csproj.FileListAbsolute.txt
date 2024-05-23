@@ -13,3 +13,4 @@ C:\Users\MEGAS\Desktop\mragan\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Window
 C:\Users\MEGAS\Desktop\mragan\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
 C:\Users\MEGAS\Desktop\mragan\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTimer.resources
 C:\Users\MEGAS\Desktop\mragan\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormGame.resources
+C:\Users\MEGAS\Desktop\mragan\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCheckBox.resources

@@ -34,6 +34,16 @@ namespace WindowsFormsApp1
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -43,6 +53,9 @@ namespace WindowsFormsApp1
                 {
                     MessageBox.Show("恭喜答對!");
                 }
+
+
+
                 else if(input < this.answer)
                 {
                     this.min = input;

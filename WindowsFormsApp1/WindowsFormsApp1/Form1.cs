@@ -66,5 +66,11 @@ namespace WindowsFormsApp1
             Form formTimer = new FormGame();
             formTimer.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new FormCheckBox();
+            form.Show();
+        }
     }
 }
