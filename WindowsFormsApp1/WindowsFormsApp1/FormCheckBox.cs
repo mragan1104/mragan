@@ -24,5 +24,25 @@ namespace WindowsFormsApp1
             else
                 MessageBox.Show("方塊已被取消");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            foreach(Control c in panel1.Controls)
+            {
+                if(c is CheckBox)
+                {
+                    CheckBox chk = (CheckBox)c;
+                    if (chk.Checked)
+                    {
+                        MessageBox.Show(chk.Text);
+                    }
+                }
+            }
+        }
     }
 }
