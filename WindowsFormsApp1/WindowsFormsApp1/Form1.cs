@@ -71,6 +71,15 @@ namespace WindowsFormsApp1
         {
             Form form = new FormCheckBox();
             form.Show();
+
+
+
+
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form form = new FormPanelMenu();
+            form.Show();
         }
     }
 }
